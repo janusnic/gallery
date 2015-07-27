@@ -1,0 +1,14 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        span: full
+        label: kodermax.gallery::lang.modeldata.name
+    images:
+        label: kodermax.gallery::lang.modeldata.images
+        type: fileupload
+        mode: image
+        imageHeight: 150
+        imageWidth: 250
